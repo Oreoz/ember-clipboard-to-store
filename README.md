@@ -1,26 +1,6 @@
-# ember-clipboard-to-store
+# Ember Spreadsheet to Store
 
-This README outlines the details of collaborating on this Ember addon.
+## Description
+The purpose of this addon is to help the creation of records from data that a user is copying/pasting from a spreadsheet.
 
-## Installation
-
-* `git clone <repository-url>` this repository
-* `cd ember-clipboard-to-store`
-* `npm install`
-
-## Running
-
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-
-## Running Tests
-
-* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
+Because for some reason, my users really dig copying data from excel spreadsheets. ¯\\_(ツ)_/¯

@@ -1,1 +1,1 @@
-export { default } from 'ember-clipboard-to-store/components/clip-area';
+export { default } from 'ember-spreadsheet-to-store/components/clip-area';

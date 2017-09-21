@@ -2,5 +2,5 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-clipboard-to-store'
+  name: 'ember-spreadsheet-to-store'
 };
