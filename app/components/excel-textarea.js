@@ -1,0 +1,1 @@
+export { default } from 'ember-excel-to-model/components/excel-textarea';

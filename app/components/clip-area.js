@@ -1,1 +1,0 @@
-export { default } from 'ember-excel-to-model/components/clip-area';

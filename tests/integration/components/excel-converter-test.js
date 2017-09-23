@@ -1,24 +1,23 @@
 import { moduleForComponent, test } from 'ember-qunit';
 import hbs from 'htmlbars-inline-precompile';
 
-moduleForComponent('clip-area', 'Integration | Component | clip area', {
+moduleForComponent('excel-converter', 'Integration | Component | excel converter', {
   integration: true
 });
 
 test('it renders', function(assert) {
-
   // Set any properties with this.set('myProperty', 'value');
   // Handle any actions with this.on('myAction', function(val) { ... });
 
-  this.render(hbs`{{clip-area}}`);
+  this.render(hbs`{{excel-converter}}`);
 
   assert.equal(this.$().text().trim(), '');
 
   // Template block usage:
   this.render(hbs`
-    {{#clip-area}}
+    {{#excel-converter}}
       template block text
-    {{/clip-area}}
+    {{/excel-converter}}
   `);
 
   assert.equal(this.$().text().trim(), 'template block text');

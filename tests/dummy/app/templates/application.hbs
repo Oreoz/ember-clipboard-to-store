@@ -1,3 +1,13 @@
 <h2 id="title">Ember Spreadsheet to Store</h2>
 
-{{clip-area onProcessSuccess=(action 'success')}}
+{{#excel-converter success=(action 'success') as |converter|}}
+  <div class="excel-preview">
+    {{#each converter.objects as |object index|}}
+      <div class="">
+        Object {{index}}: {{object.a}}, {{object.b}}, {{object.c}}
+      </div>
+    {{/each}}
+  </div>
+
+  {{converter.textarea rows="5"}}
+{{/excel-converter}}
