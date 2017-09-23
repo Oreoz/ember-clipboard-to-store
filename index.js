@@ -2,5 +2,5 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-spreadsheet-to-store'
+  name: 'ember-excel-to-model'
 };
