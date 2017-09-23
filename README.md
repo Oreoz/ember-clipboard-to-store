@@ -1,6 +1,6 @@
-# Ember Spreadsheet to Store
+# Ember Excel to Model(s)
 
-Work in Progress.
+This is currently a work in progress.
 
 ## Description
 The purpose of this addon is to help the creation of records from data that a user is copying/pasting from a spreadsheet.
